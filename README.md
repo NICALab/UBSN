@@ -20,7 +20,7 @@
 
 <p align="center">
   <a href="">
-    <img src="https://lh3.googleusercontent.com/oemfhxf5k7KoBW_5-VMMEYykdP71BeaSNyurwJv77rmqAR3rB2SuRAD7WM4BSLHl-lTzbWMndRdaWhyMrlFVIy8QtaxTiO9WV7XrWxIbTbIvRjJ9Wi1_4V2n6oc-yx2RfQ=w1280" alt="Logo" width="95%">
+    <img src="./ubsn_main.png" alt="Logo" width="75%">
   </a>
 </p>
 
