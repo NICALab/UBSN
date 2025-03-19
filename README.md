@@ -34,36 +34,30 @@ We report the theoretical design principles of self-supervised denoising network
 
 # Installation
 Clone the repository and create an anaconda environment using
+```setup
+pip install -r requirements.txt
 ```
-TODO
-```
+
 
 # Dataset
-## SIDD dataset
-Please download the data from the [SIDD]() 
-```
-TODO
+We follow the dataset setup in AP-BSN. Please click [this link](https://github.com/wooseoklee4/AP-BSN#directory) for a detailed preparation description.
+
+
+# Evaluation
+To evaluate our model, run:
+
+```eval
+python test.py -c UBSN_SIDD_val -g 0 --pretrained 'UBSN_SIDD_pretrained.pth' -s UBSN_SIDD_val
+python test.py -c UBSN_SIDD_bench -g 0 --pretrained 'UBSN_SIDD_pretrained.pth' -s UBSN_SIDD_bench
 ```
 
-## DND dataset
-```
-TODO
-```
+`-c` refers the configuration name (*.yaml), 
+`-g` refers the GPU ID,
+`--pretrained` refers to the name of pretrained model file (in the `ckpt/` directory),
+`-s` refers to the session name for saving the results.
 
-# Training and Evaluation
-```
-# single-scale training and multi-scale testing on NeRF-synthetic dataset
-python scripts/run_nerf_synthetic_stmt.py 
-
-# multi-scale training and multi-scale testing on NeRF-synthetic dataset
-python scripts/run_nerf_synthetic_mtmt.py 
-
-# single-scale training and single-scale testing on the mip-nerf 360 dataset
-python scripts/run_mipnerf360.py 
-
-# single-scale training and multi-scale testing on the mip-nerf 360 dataset
-python scripts/run_mipnerf360_stmt.py 
-```
+# Pretrained Models
+Pretrained model is in the `ckpt/UBSN_SIDD_pretrained.pth`.
 
 # Citation
 If you find our code or paper useful, please cite
@@ -72,7 +66,7 @@ If you find our code or paper useful, please cite
   title={Design Principles of Multi-Scale J-invariant Networks for Self-Supervised Image Denoising},
   author={Yu, Hayeong and Han, Seungjae and Yoon, Young-Gyu},
   booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
-  pages={XXXX--XXXX},
+  pages={1309--1318},
   year={2025}
 }
 ```
