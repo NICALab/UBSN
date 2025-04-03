@@ -57,7 +57,7 @@ python test.py -c UBSN_SIDD_bench -g 0 --pretrained 'UBSN_SIDD_pretrained.pth' -
 `-s` refers to the session name for saving the results.
 
 # Pretrained Models
-Pretrained model is in the `ckpt/UBSN_SIDD_pretrained.pth`.
+Download pretrained model in [this link](https://drive.google.com/file/d/1AIMlxZq2UJsIe0ri45x-Ib64gZ5_207g/view?usp=sharing), and place the checkpoint as `ckpt/UBSN_SIDD_pretrained.pth`.
 
 # Citation
 If you find our code or paper useful, please cite
