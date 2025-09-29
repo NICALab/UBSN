@@ -11,9 +11,14 @@
   <p align="center">
     (* equal contribution)
   </p>
-  <h2 align="center">WACV 2025 Oral</h2>
+  <h2 align="center">WACV 2025 · Oral Presentation</h2>
 
-  <h3 align="center"><a href="https://openaccess.thecvf.com/content/WACV2025/html/Yu_Design_Principles_of_Multi-Scale_J-Invariant_Networks_for_Self-Supervised_Image_Denoising_WACV_2025_paper.html">Paper</a> </h3>
+  
+  <h3 align="center">
+    <a href="https://openaccess.thecvf.com/content/WACV2025/html/Yu_Design_Principles_of_Multi-Scale_J-Invariant_Networks_for_Self-Supervised_Image_Denoising_WACV_2025_paper.html">[Paper]</a>
+    &nbsp;|&nbsp;
+    <a href="https://drive.google.com/file/d/1AIMlxZq2UJsIe0ri45x-Ib64gZ5_207g/view?usp=sharing">[Pretrained Model]</a>
+  </h3>
   <div align="center"></div>
 </p>
 
@@ -26,7 +31,8 @@
 
 <strong>
 <p align="center">
-We report the theoretical design principles of self-supervised denoising networks. We show that a U-Net-shaped blind spot network (U-BSN), whose design is derived by following these principles, achieves superior denoising performance at a low computational cost.
+We introduce <em>theoretical design principles</em> for self-supervised image denoising and show how they lead to the <b>U-BSN</b> (U-Net Blind Spot Network).  
+U-BSN unifies multi-scale J-invariance with efficient U-Net design, delivering <b>state-of-the-art denoising at a fraction of the cost</b>.
 </p>
 </strong>
 <br>
